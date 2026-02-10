@@ -29,7 +29,7 @@ export function Footer({ onNavigate }: FooterProps) {
             </div>
             <p className="text-gray-300 leading-relaxed">
               Müvekkillerime güvenilir, profesyonel ve çözüm odaklı hukuki
-              danışmanlık hizmeti sunuyorum.
+              danışmanlık hizmeti sunuyoruz.
             </p>
           </div>
 
@@ -59,7 +59,8 @@ export function Footer({ onNavigate }: FooterProps) {
               <div className="flex items-start gap-3 text-gray-300">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <span>
-                  Kadıköy mah. amiral cd. no:241/1/1 KARAMÜRSEL KOCAELİ
+                  Kadıköy Mahallesi, Amiral Caddesi No: 241/1/1,
+                  Karamürsel/Kocaeli
                 </span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
