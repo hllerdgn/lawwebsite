@@ -112,7 +112,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             <div className="flex flex-col gap-6">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <ImageWithFallback
-                  src="/avukatlık.png"
+                  src="/public/images/avukatlik.png"
                   alt="Hukuk Ofisi"
                   className="w-full h-[400px] object-cover"
                 />
