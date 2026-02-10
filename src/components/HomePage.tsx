@@ -17,6 +17,7 @@ import {
   Clock,
   Send,
 } from "lucide-react";
+
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 interface HomePageProps {
@@ -112,7 +113,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             <div className="flex flex-col gap-6">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <ImageWithFallback
-                  src="/public/images/avukatlik.png"
+                  src="/avukatlik.png" // Başında / olması public klasörünü temsil eder
                   alt="Hukuk Ofisi"
                   className="w-full h-[400px] object-cover"
                 />
