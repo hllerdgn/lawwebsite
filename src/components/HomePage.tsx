@@ -113,7 +113,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             <div className="flex flex-col gap-6">
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <ImageWithFallback
-                  src="/avukatlik.png" // Başında / olması public klasörünü temsil eder
+                  src="https://res.cloudinary.com/dmjjnsicv/image/upload/v1770718454/avukatlik_f1nsws.jpg" // Başında / olması public klasörünü temsil eder
                   alt="Hukuk Ofisi"
                   className="w-full h-[400px] object-cover"
                 />
